@@ -1,0 +1,23 @@
+:root{
+  color-scheme:light;
+  --page:#f3f6ff;--text:#17243b;--surface:#ffffff;--field:#ffffff;--hero:#ffffff;
+  --accent:#2454eb;--on-accent:#ffffff;--link:#2454eb;--secondary:#eaf0ff;
+  --muted:#56647a;--line:#dde4f1;--gain:#087844;--loss:#bd263e;
+  --notice-bg:#eaf0ff;--error-bg:#fff0f3;--overlay:#07102099;--focus:#2454eb;--nav-bg:#ffffffed;
+  --chart-equity:#0b9860;--chart-bond:#2454eb;--chart-fund:#8439df;--chart-cash:#8895ab;
+  --chart-commodity:#b97205;--chart-realEstate:#bb397c;--chart-mixed:#974fd2;--chart-other:#027f90;--chart-unallocated:#9e6440;
+  accent-color:var(--accent);
+}
+:root[data-theme=dark]{
+  color-scheme:dark;
+  --page:#0b1120;--text:#eef3ff;--surface:#151f32;--field:#10192b;--hero:#17253f;
+  --accent:#3564ed;--on-accent:#ffffff;--link:#93b0ff;--secondary:#203357;
+  --muted:#abb8d0;--line:#2b3954;--gain:#4be0ac;--loss:#ff8798;
+  --notice-bg:#203357;--error-bg:#3c2231;--overlay:#030815b3;--focus:#93b0ff;--nav-bg:#151f32ed;
+  --chart-equity:#35d7aa;--chart-bond:#638bff;--chart-fund:#b095ff;--chart-cash:#8d9db8;
+  --chart-commodity:#f3c568;--chart-realEstate:#ff9dc8;--chart-mixed:#d19bf5;--chart-other:#62cbdc;--chart-unallocated:#e8b28a;
+}
+.hero-panel{background:var(--hero);border-top:4px solid var(--accent)}
+.theme-panel label{display:block;font-size:13px;color:var(--muted);margin-bottom:10px}
+.theme-panel select{margin:0}
+.theme-panel .hint{margin-top:12px}
